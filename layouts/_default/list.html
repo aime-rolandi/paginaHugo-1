@@ -1,0 +1,29 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+</head>
+<body>
+    <header style="background-color: aquamarine; color: rgb(11, 77, 11);">
+        <h1>Encabezado</h1>
+    </header>    
+    <br>
+    <hr>
+    <main >
+        <p>Este es el cuerpo</p>
+        <div style="border: solid 2px blue; height: 50%; margin: 10px;">
+            {{ range .Pages }}
+            <li><a href="{{ .URL }}">{{.Title}}</a></li><br>
+            {{end}}
+        </div>
+    </main>
+    <br>
+    <hr>
+    <footer style="background-color: grey; color: rgb(11, 77, 11);">
+        <h4>Pie de pagina</h4>
+    </footer>
+
+</body>
+</html>

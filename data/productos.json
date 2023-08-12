@@ -1,0 +1,32 @@
+[
+    {
+        "imagen": "🍌",
+        "nombre": "Bananas",
+        "precio": 220,
+        "id": "1"
+    },
+    {
+        "imagen": "🍎",
+        "nombre": "Manzanas",
+        "precio": 200,
+        "id": "2"
+    },
+    {
+        "imagen": "🥝",
+        "nombre": "Kiwis",
+        "precio": 280,
+        "id": "3"
+    },
+    {
+        "imagen": "🍈",
+        "nombre": "Melón",
+        "precio": 350,
+        "id": "4"
+    },
+    {
+        "imagen": "🍍",
+        "nombre": "Piñas",
+        "precio": 320,
+        "id": "5"
+    }
+]
