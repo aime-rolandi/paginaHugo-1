@@ -1,0 +1,7 @@
+<ul>
+    {{ range .Site.Data.productos}}
+        <li>
+            <a href="/content/productos/{{ .id }}">{{.nombre}}</a>
+        </li>
+    {{end}}
+</ul>
