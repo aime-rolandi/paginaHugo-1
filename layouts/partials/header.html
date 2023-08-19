@@ -1,0 +1,12 @@
+<h1>Encabezado de la plantilla parcial</h1>
+
+<nav>
+    <ul>
+      {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+</nav>
+  
+<hr>
+<br>
