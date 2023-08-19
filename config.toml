@@ -6,18 +6,15 @@ title = 'My New Hugo Site'
 
 [[menu.main]]
   name = "Inicio"
-  identifier = "inicio"
   url = "/"
   weight = 1
 
 [[menu.main]]
   name = "Pagina 1"
-  identifier = "pag1"
   url = "/pag1/"
   weight = 2
 
 [[menu.main]]
   name = "Pagina 2"
-  identifier = "pag2"
   url = "/pag2/"
   weight = 3
