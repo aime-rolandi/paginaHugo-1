@@ -1,6 +1,8 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+styles = 'css/styles.css'
+
 [permalinks]
   productos = "/productos/:filename/"
 

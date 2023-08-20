@@ -1,0 +1,8 @@
+
+
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: rgb(23, 102, 76);
+}

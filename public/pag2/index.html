@@ -1,25 +1,25 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/static/css/styles.css" type='text/plain' media='all'>
+  <link rel="stylesheet" href="/static/css/styles.css">
 </head>
 <body>
   <header class="container-nav">
     <h1>Encabezado de la plantilla parcial</h1>
-
-    
     <div >
-      <a href="{{ `/` | relURL }}">
-        <img src="{{ .Site.BaseURL }}/img/Logo_IM-5.jpg" alt="logoIM">
-      </a>
       <nav>
+        <img src="/static/img/Logo_IM-5.jpg">
           <ul>
-            {{ range .Site.Menus.main }}
-              <li ><a href="{{ .URL }}">{{ .Name }}</a></li>
-            {{ end }}
+            
+              <li ><a href="/">Inicio</a></li>
+            
+              <li ><a href="/pag1/">Pagina 1</a></li>
+            
+              <li ><a href="/pag2/">Pagina 2</a></li>
+            
           </ul>
       </nav>
     </div>
@@ -27,3 +27,7 @@
   
 <hr>
 <br>
+
+<p>pagina 2</p>
+
+
