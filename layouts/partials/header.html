@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>pruebas de hugo</title>
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/styles.css" type='text/css'>
+  <script defer src="{{ .Site.BaseURL }}/js/main.js"></script>
 </head>
 <body>
   <header class="container-nav" role="navigation">
@@ -16,13 +17,14 @@
       <div class="container-menu">
         <ul class="nav-links">
           {{ range .Site.Menus.main }}
-          <li ><a href="{{ .URL }}">{{ .Name }}</a></li>
+          <li><a href="{{ .URL }}"> {{ .Name }}</a></li>
           {{ end }}
         </ul>
       </div>
     </nav>
+   
+    
     <button class="button-menu-toggle"><img src="{{ .Site.BaseURL }}/img/icons/menu-hamburguer.svg" alt="Menu"></button>
   </header>
   
-  <script src="{{ .Site.BaseURL }}/js/main.js"></script>
 <br>

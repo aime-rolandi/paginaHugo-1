@@ -1,10 +1,9 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-styles = 'css/styles.css'
 
-[permalinks]
-  productos = "/productos/:filename/"
+[params]
+  css=["css/styles.css"]
 
 [[menu.main]]
   name = "Inicio"
@@ -20,3 +19,16 @@ styles = 'css/styles.css'
   name = "Pagina 2"
   url = "/pag2/"
   weight = 3
+
+[[menu.main]]
+  name = "Pagina 3"
+  url = "/pag3/"
+  weight = 4
+
+[[menu.main]]
+  name = "Pagina 4"
+  url = "/pag4/"
+  weight = 5
+
+
+
